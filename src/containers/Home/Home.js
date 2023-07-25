@@ -36,7 +36,8 @@ import homecovermob from '../../assests/Homepage/homecovermob.png'
 
 function Home() {
   const [number, setNumber] = useState(0);
-  const [text, setText] = useState('')
+  const [text, setText] = useState('');
+  const[color,setcolor]= useState(1)
 
   const array = [
     { id: 1, img: u2, text: 'We offer innovative web and mobile app development services to boost your online presence and drive growth. Our experienced team creates custom solutions tailored to your business needs, delivering seamless user experiences for lasting success.' },
@@ -92,7 +93,7 @@ function Home() {
                         <img src={homecovermob} alt='homecoverimg' className='img-fluid col-12' />
                       </div>
                     </div>
-                    <div className='row  bottom-50 d-block d-sm-block d-md-none d-lg-none'>
+                    <div className='row  bottom-50 d-block d-sm-block d-md-none d-lg-none d-flex text-center'>
                       <div className='col'>
                         <p className='h1 text-dark fw-bold'>Start Big from <br /><span className='homeheadcolor'>Day One.</span>
                         </p>
@@ -122,7 +123,7 @@ function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className='row  bottom-50 d-block d-sm-block d-md-none d-lg-none'>
+                  <div className='row  bottom-50 d-block d-sm-block d-md-none d-lg-none d-flex text-center'>
                     <div className='col'>
                       <p className='h1 text-dark fw-bold'>Start Big from <br /><span className='homeheadcolor'>Day One.</span>
                       </p>
@@ -151,7 +152,7 @@ function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className='row  bottom-50 d-block d-sm-block d-md-none d-lg-none'>
+                  <div className='row  bottom-50 d-block d-sm-block d-md-none d-lg-none d-flex text-center'>
                     <div className='col'>
                       <p className='h1 text-dark fw-bold'>Start Big from <br /><span className='homeheadcolor'>Day One.</span>
                       </p>
@@ -196,7 +197,7 @@ function Home() {
             <div className='col-12 position-absolute'>
               <div className='row d-flex justify-content-center gap-4'>
                 <div className='col-3 '>
-                  {/* <img src={ourprocess2} className='img-fluid position-absolute positioncard' alt='ourprocess' /> */}
+                  <img src={ourprocess2} className='img-fluid position-absolute positioncard d-none d-sm-none d-md-none d-lg-block' alt='ourprocess' />
                   <div className="card mt-5 mt-lg-0 rounded-circle  p-4">
                     <div className='row d-flex justify-content-center'>
                       <div className='col-6'>
@@ -214,7 +215,7 @@ function Home() {
                   </div>
                 </div>
                 <div className='col-3 '>
-                  {/* <img src={ourprocess1} className='img-fluid position-absolute positioncardcenter' alt='ourprocess' /> */}
+                  <img src={ourprocess1} className='img-fluid position-absolute positioncardcenter d-none d-sm-none d-md-none d-lg-block' alt='ourprocess' />
                   <div className="card mt-5 mt-lg-0  rounded-circle p-4 ">
                     <div className='row d-flex justify-content-center'>
                       <div className='col-6'>
@@ -233,7 +234,7 @@ function Home() {
                   </div>
                 </div>
                 <div className='col-3 '>
-                  {/* <img src={ourprocess2} className='img-fluid position-absolute positioncard2' alt='ourprocess' /> */}
+                  <img src={ourprocess2} className='img-fluid position-absolute positioncard2 d-none d-sm-none d-md-none d-lg-block' alt='ourprocess' />
                   <div className="card mt-5 mt-lg-0 rounded-circle p-4 ">
                     <div className='row d-flex justify-content-center'>
                       <div className='col-6'>
@@ -318,17 +319,17 @@ function Home() {
       <div className='container mt-lg-5 pt-lg-5'>
         <div className='row py-5 mt-lg-5'>
           <div className='col-12 col-md-6 col-lg-6'>
-            <p className='fw-light'><HiOutlineMinus />What we do</p>
+            <p className='fw-light mt-lg-5'><HiOutlineMinus />What we do</p>
             <p className='h2 text-color d-none d-sm-none d-md-block d-lg-block'><b>Expertise</b></p>
             <p className='h2 text-colormob d-block d-sm-block d-md-none d-lg-none'><b>Expertise</b></p>
           </div>
           <div className='col-12 col-md-6 col-lg-6'>
             <div className='row'>
               <div className='col-2 d-none d-sm-none d-md-flex d-lg-flex justify-content-end'>
-                <div className="vr " style={{ 'color': 'rgba(50, 197, 224, 1)', border: 'solid' }}></div>
+                <div className="vr mt-lg-5" style={{ 'color': 'rgba(50, 197, 224, 1)', border: 'solid' }}></div>
               </div>
               <div className='col-12 col-md-10 col-lg-10'>
-                <p className='fw-light'>Bring your idea to life with the guidance of experienced,
+                <p className='fw-light mt-lg-5'>Bring your idea to life with the guidance of experienced,
                   from inception to a minimum viable product. </p>
               </div>
             </div>
@@ -862,25 +863,25 @@ function Home() {
               {/*cards*/}
               <div className='row mt-lg-5 mt-3'>
                 <div className='col-6 col-lg-4'>
-                  <div class="card w-75 card-color opacity-25">
-                    <div class="card-body ">
-                      <h5 class="card-title "><b>25+</b></h5>
+                  <div class="card w-100 card-color opacity-25">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>25+</b></h5>
                       <p class="card-text">Products Delivered</p>
                     </div>
                   </div>
                 </div>
                 <div className='col-6 col-lg-4'>
-                  <div class="card w-75 card-color opacity-25">
+                  <div class="card w-100 card-color opacity-25">
                     <div class="card-body ">
                       <h5 class="card-title "><b>40+</b></h5>
-                      <p class="card-text">Wizards at Work</p>
+                      <p class="card-text">Wizards at <br/>Work</p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className='row mt-lg-5'>
+              <div className='row mt-lg-5 mt-5'>
                 <div className='col-6 col-lg-4'>
-                  <div class="card w-75 card-color opacity-25">
+                  <div class="card w-100 card-color opacity-25">
                     <div class="card-body ">
                       <h5 class="card-title "><b>30+</b></h5>
                       <p class="card-text">Technologies Deployed</p>
@@ -888,7 +889,7 @@ function Home() {
                   </div>
                 </div>
                 <div className='col-6 col-lg-4'>
-                  <div class="card w-75 card-color opacity-25">
+                  <div class="card w-100 card-color opacity-25">
                     <div class="card-body ">
                       <h5 class="card-title "><b>4+</b></h5>
                       <p class="card-text">Countries & Growing</p>
@@ -928,36 +929,39 @@ function Home() {
             <ul className="nav nav-tabs mb-3 d-flex justify-content-lg-end mt-3" id="ex1" role="tablist">
               <li className="nav-item" role="presentation">
                 <a
-                  className="nav-link active"
+                  className={color===1?"nav-link active tabs":"nav-link   border-0"}
                   id="ex1-tab-1"
                   data-bs-toggle="tab"
                   href="#ex1-tabs-1"
                   role="tab"
                   aria-controls="ex1-tabs-1"
                   aria-selected="true"
-                >Tab 1</a>
+                  onClick={()=>{setcolor(1)}}
+                >Whats New</a>
               </li>
               <li className="nav-item" role="presentation">
                 <a
-                  className="nav-link"
+                  className={color===2?"nav-link active  tabs":"nav-link   border-0"}
                   id="ex1-tab-2"
                   data-bs-toggle="tab"
                   href="#ex1-tabs-2"
                   role="tab"
                   aria-controls="ex1-tabs-2"
                   aria-selected="false"
-                >Tab 2</a>
+                  onClick={()=>{setcolor(2)}}
+                >Security</a>
               </li>
               <li className="nav-item" role="presentation">
                 <a
-                  className="nav-link"
+                  className={color===3?"nav-link active tabs":"nav-link border-0"}
                   id="ex1-tab-3"
                   data-bs-toggle="tab"
                   href="#ex1-tabs-3"
                   role="tab"
                   aria-controls="ex1-tabs-3"
                   aria-selected="false"
-                >Tab 3</a>
+                  onClick={()=>{setcolor(3)}}
+                >News</a>
               </li>
             </ul>
           </div>
