@@ -6,6 +6,7 @@ import t2clogo from '../../assests/t2clogo.svg'
 import { BiLogoFacebookSquare } from 'react-icons/bi'
 import { FaInstagramSquare } from 'react-icons/fa'
 import { BsLinkedin } from 'react-icons/bs'
+import rocketmob from '../../assests/rocketmob.png'
 function Footer() {
     return (
         <>
@@ -19,9 +20,9 @@ function Footer() {
                                 <button className='btn btn-dark rounded-5 px-3 '>Talk to us  <img src={arrow2} alt='arrow2' width='12%' /></button>
                             </div>
                         </div>
-                        <div className='col-4 d-flex justify-content-center'>
+                        <div className='col-4  d-flex justify-content-center'>
                             <img src={rocket} className=' footerimgposition d-none d-sm-none d-md-flex d-lg-flex' alt='rocket' width='200px' />
-                            <img src={rocket} className=' footerimgposition d-flex d-sm-flex d-md-none d-lg-none' alt='rocket' width='200px' />
+                            <img src={rocketmob} className=' footerimgposition d-flex d-sm-flex d-md-none d-lg-none mt-4' alt='rocket' width='125px' />
                         </div>
                         <div className='col-4 d-none d-sm-none d-md-flex d-lg-flex align-items-center justify-content-end '>
                             <button className='btn btn-dark rounded-5 px-4 py-2'>Talk to us  <img src={arrow2} alt='arrow2' width='12%' /></button>

@@ -14,11 +14,11 @@ function App() {
     <BrowserRouter>
       <Routes>
         
-     <Route path='home' element={<Home/>}/>
-     <Route path='Footer' element={<Footer/>}/>
-     <Route path='Expertise' element={<Expertise/>}/>
-     <Route path='Aboutus' element={<Aboutus/>}/>
-     <Route path='Getintouch' element={<Getintouch/>}/>
+     <Route path='/' element={<Home/>}/>
+     <Route path='footer' element={<Footer/>}/>
+     <Route path='expertise' element={<Expertise/>}/>
+     <Route path='aboutus' element={<Aboutus/>}/>
+     <Route path='getintouch' element={<Getintouch/>}/>
       </Routes>
     </BrowserRouter>
     </>
