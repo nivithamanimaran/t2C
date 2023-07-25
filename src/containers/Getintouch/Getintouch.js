@@ -29,10 +29,10 @@ function BookDemo() {
                                         </div>
                                         <div className='container p-5 bg-modal'>
                                             <div className='row'>
-                                                <div className='col-10'>
+                                                <div className='col-9 col-lg-10'>
                                                     <img src={t2clogo} className='img-fluid' alt='t2clogo'/>
                                                 </div>
-                                                <div className='col'>
+                                                <div className='col-3 col-lg-2'>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                 </div>
 
