@@ -27,10 +27,10 @@ function Aboutus() {
       <Navbar page={3} />
       <div className='container-fluid p-0'>
         <div className='row'>
-          <div className='col-4 d-flex justify-content-left position-absolute p-5 mt-lg-5  d-none d-sm-none d-md-block d-lg-block'>
+          <div className='col-4 position-absolute p-5 mt-lg-5  d-none d-sm-none d-md-block  d-lg-block headalign'>
             <p className='h4 text-light mt-lg-3 pt-lg-3 pt-3 mt-3 textcolor2'><b>About Us</b></p>
           </div>
-          <div className='col-8 d-flex justify-content-left p-5 mt-lg-5 mt-3 pt-lg-5 pt-5 position-absolute  d-none d-sm-none d-md-block d-lg-block'>
+          <div className='col-8 p-5 mt-lg-5 mt-3 pt-lg-5 pt-5 position-absolute  d-none d-sm-none d-md-block d-lg-block paraalign'>
             <p className='fs-6 text-light mt-lg-5 pt-lg-5 pt-3 mt-3 p-5'>Technology drives our core operations. T²C, Our Technology Centre of Excellence, integrates business strategy, design thinking and engineering to enable technology disruptors. Our pursuit of growth entails recruiting over 50 brilliant young minds across varied sectors from time to time.</p>
           </div>
         </div>
@@ -59,7 +59,7 @@ function Aboutus() {
             <p className='h2 d-none d-sm-none d-md-none d-lg-block'><b>Your Chief Technology Organization</b></p>
             <div className='row'>
               <div className='col'>
-                <p className='textOverlap d-none d-sm-none d-md-none d-lg-block'>
+                <p className='textOverlap d-none d-sm-none d-md-none d-lg-block col-5'>
                   Get Unmatched Strategy and Execution  Support with T²C
                   T²C is your acting CTO that empowers you with a confluence of resources, associations and mentorship. We define effective digital strategies to equip you for the long run.
                 </p>
@@ -79,7 +79,7 @@ function Aboutus() {
             <p className='h2 '><b>Moulding the leaders of tomorrow</b></p>
             <div className='container'>
               <div className='col'>
-                <p className='textOverlaptwo d-none d-sm-none d-md-none d-lg-block'>The T²C tribe is build on the foundations of game intelligence.
+                <p className='textOverlaptwo d-none d-sm-none d-md-none d-lg-block col-5'>The T²C tribe is build on the foundations of game intelligence.
                   We coordinate one-on-one mentoring by matching individuals with complementary cognitive profiles to facilitate equity of resources and create individuals with critical acumen.
                 </p>
               </div>
@@ -90,7 +90,7 @@ function Aboutus() {
           </div>
         </div>
         <div className='container para-color'>
-          <p className='fs-6 d-block d-sm-block d-md-block d-lg-none'>The T²C tribe is build on the foundations of game intelligence.
+          <p className='fs-6 d-block d-sm-block d-md-block d-lg-none '>The T²C tribe is build on the foundations of game intelligence.
             We coordinate one-on-one mentoring by matching individuals with complementary cognitive profiles to facilitate equity of resources and create individuals with critical acumen.
           </p>
         </div>
@@ -112,8 +112,8 @@ function Aboutus() {
             <div className='col d-none d-sm-none d-md-flex d-lg-flex justify-content-end'>
               <img src={square} className='img-fluid' alt='square' />
             </div>
-            <p className='h3'><b>Startups</b></p>
-            <p className='fs-6'>We are passionate about startups and believe in getting the fundamentals right. Our team has the necessary skill set to create a prototype and develop an MVP aiding you launch faster and effectively.</p>
+            <p className='h3  ml-lg-5'><b>Startups</b></p>
+            <p className='fs-6 ml-lg-5'>We are passionate about startups and believe in getting the fundamentals right. Our team has the necessary skill set to <br />create a prototype and develop an MVP aiding you launch  <br />faster and effectively.</p>
           </div>
         </div>
       </div>
@@ -121,7 +121,7 @@ function Aboutus() {
         <hr />
       </div>
       <div className='container mt-lg-5'>
-        <div className='row pt-lg-5'>
+        <div className='row pt-lg-5 '>
           <div className='col-12 col-lg-6 d-block d-sm-block d-md-none d-lg-none mt-5'>
             <img src={image4} className='img-fluid' alt='image3' />
           </div>
@@ -129,8 +129,8 @@ function Aboutus() {
             <div className='col d-none d-sm-none d-md-block d-lg-block'>
               <img src={square} className='img-fluid' alt='square' />
             </div>
-            <p className='h3 mt-3 mx-lg-5'><b>SMEs</b></p>
-            <p className='fs-6 mx-lg-5'>The landscape of small and medium businesses has been transformed by mobile devices and cloud services. We offer tailored software solutions and leverage the latest technology to help businesses stay ahead of the curve.</p>
+            <p className='h3 mt-3 mx-lg-5 px-lg-5'><b>SMEs</b></p>
+            <p className='fs-6 ms-lg-5 ps-lg-5'>The landscape of small and medium businesses has been transformed by mobile devices and cloud services. We offer tailored software solutions and leverage the latest technology to help businesses stay ahead of the curve.</p>
 
           </div>
           <div className='col-12 col-lg-6 d-none d-sm-none d-md-block d-lg-block'>
