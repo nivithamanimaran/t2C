@@ -82,6 +82,31 @@ code {
 }
 
 /*home page*/
+.shadowpositionleft {
+  left: 5%;
+  top: 60%;
+  }
+  
+  .shadowpositionright {
+  right: 5%;
+   top: 50%;
+   z-index: -1;
+  }
+  
+  .shadowpositiontop {
+  right: 33%;
+   bottom:40%;
+  }
+  .image{
+    margin-left:296px;
+    margin-top:-204px;
+    
+  }
+  .relative {
+  position: relative;
+  }
+  
+  
 .cardhover:hover{
   background-color: #B9D5FE;
   cursor: pointer;
@@ -227,15 +252,25 @@ code {
   position: absolute;
   padding:28px;
   left:6%;
-  top:55%
+  top:35%
 }
 .paraalign{
   position: absolute;
   padding:28px;
-left:2%;
-  top:48%
+  left:2%;
+  top:32%
 }
 
 .max {
   min-height: 58px;
+}
+/*contact us*/
+.headalign2{
+  position: absolute;
+  padding:28px;
+  padding-left:10%;
+  top:35%
+}
+.inputcolor:valid{
+  background: #EEEEEE;
 }

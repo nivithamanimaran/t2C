@@ -37,7 +37,7 @@ import homecovermob from '../../assests/Homepage/homecovermob.png'
 function Home() {
   const [number, setNumber] = useState(0);
   const [text, setText] = useState('');
-  const[color,setcolor]= useState(1)
+  const [color, setcolor] = useState(1)
 
   const array = [
     { id: 1, img: u2, text: 'We offer innovative web and mobile app development services to boost your online presence and drive growth. Our experienced team creates custom solutions tailored to your business needs, delivering seamless user experiences for lasting success.' },
@@ -193,60 +193,64 @@ function Home() {
           </div>
 
           {/*cards overlap block*/}
-          <div className='row d-none d-sm-none d-md-none d-lg-flex justify-content-center p-lg-5 p-md-5'>
+          <div className='row d-none d-sm-none d-md-none d-lg-flex justify-content-center p-lg-5 p-md-5 mb-lg-5'>
+            {/*  */}
             <div className='col-12 position-absolute'>
-              <div className='row d-flex justify-content-center gap-4'>
+              <div className='row d-flex justify-content-center gap-5 relative'>
                 <div className='col-3 '>
-                  <img src={ourprocess2} className='img-fluid position-absolute positioncard d-none d-sm-none d-md-none d-lg-block' alt='ourprocess' />
-                  <div className="card mt-5 mt-lg-0 rounded-circle  p-4">
+                  <img src={ourprocess2} className='img-fluid col-4 position-absolute shadowpositionleft d-none d-sm-none d-md-none d-lg-block' alt='ourprocess' width='32%' />
+                  <div className="card mt-5 mt-lg-0 rounded-circle border-0  p-4 circle" style={{ width: '100%',height:'320px' }}>
                     <div className='row d-flex justify-content-center'>
                       <div className='col-6'>
                         <div className='card p-3 rounded-circle roundedcard1'>
-                          <img src={idea} className='img-fluid d-flex mx-auto' alt='market' />
+                          <img src={idea} className='img-fluid d-flex mx-auto' alt='market' width='50%' />
                         </div>
                       </div>
                     </div>
                     <div className='row'>
-                      <div className='col p-3'>
+                      <div className='col p-2'>
                         <p className='mt-lg-3 text-center'><b>Idea to product</b></p>
-                        <p className="card-text fw-light text-center">Bring your idea to life with guidance of experienced, of experienced</p>
+                        <p className="card-text fw-light text-center">Bring your idea to life with<br /> guidance of experienced, <br />of experienced</p>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className='col-3 '>
-                  <img src={ourprocess1} className='img-fluid position-absolute positioncardcenter d-none d-sm-none d-md-none d-lg-block' alt='ourprocess' />
-                  <div className="card mt-5 mt-lg-0  rounded-circle p-4 ">
+                <img src={ourprocess1} className='img-fluid col-4 position-absolute shadowpositiontop d-none d-sm-none d-md-none d-lg-block' alt='ourprocess'width='32%' />                  
+                  
+                  {/* <img src={ourprocess1} className='img-fluid position-absolute positioncardcenter d-none d-sm-none d-md-none d-lg-block' alt='ourprocess' /> */}
+                  <div className="card mt-5 mt-lg-0  rounded-circle p-4 border-0" style={{ width: '100%',height:'320px',boxShadow:'1px 8px 20px' }}>
                     <div className='row d-flex justify-content-center'>
                       <div className='col-6'>
                         <div className='card p-3 rounded-circle roundedcard1'>
-                          <img src={mvp} className='img-fluid d-flex mx-auto' alt='market' />
+                          <img src={mvp} className='img-fluid d-flex mx-auto' alt='market' width='50%' />
                         </div>
                       </div>
                     </div>
                     <div className='row'>
                       <div className='col p-3'>
                         <p className='mt-lg-3 text-center'><b>Future Ready</b></p>
-                        <p className="card-text fw-light text-center">Bring your idea to life with guidance of experienced,
-                          of experienced</p>
+                        <p className="card-text fw-light text-center">Bring your idea to life with<br /> guidance of experienced, <br />of experienced</p>
+
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className='col-3 '>
-                  <img src={ourprocess2} className='img-fluid position-absolute positioncard2 d-none d-sm-none d-md-none d-lg-block' alt='ourprocess' />
-                  <div className="card mt-5 mt-lg-0 rounded-circle p-4 ">
+                  <img src={ourprocess2} className='img-fluid col-4 position-absolute shadowpositionright d-none d-sm-none d-md-none d-lg-block' alt='ourprocess' width='32%'/>                  
+                  <div className="card mt-5 mt-lg-0 rounded-circle p-4 border-0" style={{ width: '100%',height:'320px' }}>
                     <div className='row d-flex justify-content-center'>
                       <div className='col-6'>
                         <div className='card p-3 rounded-circle roundedcard1'>
-                          <img src={mvp} className='img-fluid d-flex mx-auto' alt='market' />
+                          <img src={mvp} className='img-fluid d-flex mx-auto' alt='market' width='50%' />
                         </div>
                       </div>
                     </div>
                     <div className='row'>
                       <div className='col p-3'>
                         <p className='mt-lg-3 text-center'><b>Demand to Delivery</b></p>
-                        <p className="card-text fw-light text-center">Bring your idea to life with guidance of experienced, of experienced</p>
+                        <p className="card-text fw-light text-center">Bring your idea to life with<br /> guidance of experienced, <br />of experienced</p>
+
                       </div>
                     </div>
                   </div>
@@ -317,7 +321,7 @@ function Home() {
 
       {/*Expertise*/}
       <div className='container mt-lg-5 pt-lg-5'>
-        <div className='row py-5 mt-lg-5'>
+        <div className='row pt-lg-5 mt-lg-5'>
           <div className='col-12 col-md-6 col-lg-6'>
             <p className='fw-light mt-lg-5'><HiOutlineMinus />What we do</p>
             <p className='h2 text-color d-none d-sm-none d-md-block d-lg-block'><b>Expertise</b></p>
@@ -508,7 +512,7 @@ function Home() {
         </div>
 
       </div >
-<br/>
+      <br />
       {/*Explore Our Projects block*/}
       < div className='container mt-lg-5' >
         <div className='row py-5 mb-5'>
@@ -863,36 +867,36 @@ function Home() {
               {/*cards*/}
               <div className='row mt-lg-5 mt-3'>
                 <div className='col-6 col-lg-4'>
-                  <div class="card w-100 card-color opacity-25">
-                    <div class="card-body">
-                      <h5 class="card-title"><b>25+</b></h5>
-                      <p class="card-text">Products Delivered</p>
+                  <div className="card w-100 card-color" style={{ backgroundColor: 'rgb(103 103 103)' }}>
+                    <div className="card-body">
+                      <p className="h1 card-title text-center text-light "><b>25+</b></p>
+                      <p className="card-text text-center text-light">Products<br /> Delivered</p>
                     </div>
                   </div>
                 </div>
                 <div className='col-6 col-lg-4'>
-                  <div class="card w-100 card-color opacity-25">
-                    <div class="card-body ">
-                      <h5 class="card-title "><b>40+</b></h5>
-                      <p class="card-text">Wizards at <br/>Work</p>
+                  <div className="card w-100 card-color " style={{ backgroundColor: 'rgb(103 103 103)' }}>
+                    <div className="card-body ">
+                      <p className="h1 card-title text-center text-light"><b>40+</b></p>
+                      <p className="card-text text-center text-light">Wizards at <br />Work</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className='row mt-lg-5 mt-5'>
                 <div className='col-6 col-lg-4'>
-                  <div class="card w-100 card-color opacity-25">
-                    <div class="card-body ">
-                      <h5 class="card-title "><b>30+</b></h5>
-                      <p class="card-text">Technologies Deployed</p>
+                  <div className="card w-100 h-100  card-color " style={{ backgroundColor: 'rgb(103 103 103)' }}>
+                    <div className="card-body ">
+                      <p className="h1 card-title text-center text-light"><b>30+</b></p>
+                      <p className="card-text text-center text-light">Technologies Deployed</p>
                     </div>
                   </div>
                 </div>
                 <div className='col-6 col-lg-4'>
-                  <div class="card w-100 card-color opacity-25">
-                    <div class="card-body ">
-                      <h5 class="card-title "><b>4+</b></h5>
-                      <p class="card-text">Countries & Growing</p>
+                  <div className="card w-100 card-color " style={{ backgroundColor: 'rgb(103 103 103)' }}>
+                    <div className="card-body ">
+                      <p className="h1 card-title text-center text-light" ><b>4+</b></p>
+                      <p className="card-text text-center text-light">Countries & <br />Growing</p>
                     </div>
                   </div>
                 </div>
@@ -900,7 +904,7 @@ function Home() {
             </div>
 
             {/*paragraph*/}
-            <div className='col-12 col-md-6 col-lg-6 mt-lg-5'>
+            <div className='col-12 col-md-6 col-lg-6 mt-lg-5 '>
               <div className='row'>
                 <div className='col-2 d-none d-sm-none d-md-flex d-lg-flex justify-content-end'>
                   <div className="vr " style={{ 'color': 'rgba(50, 197, 224, 1)', border: 'solid' }}></div>
@@ -913,7 +917,8 @@ function Home() {
               </div>
             </div>
           </div>
-          <img src={map} className='img-fluid' alt='map' width='50%' />
+          <img src={map} className='img-fluid image d-none d-sm-none d-md-block d-lg-block ' alt='map' width='50%' />
+          <img src={map} className='img-fluid  d-block d-sm-block d-md-none d-lg-none ' alt='map' />
         </div>
       </div >
       <div className='container'>
@@ -929,38 +934,38 @@ function Home() {
             <ul className="nav nav-tabs mb-3 d-flex justify-content-lg-end mt-3" id="ex1" role="tablist">
               <li className="nav-item" role="presentation">
                 <a
-                  className={color===1?"nav-link active tabs":"nav-link   border-0"}
+                  className={color === 1 ? "nav-link active tabs" : "nav-link   border-0"}
                   id="ex1-tab-1"
                   data-bs-toggle="tab"
                   href="#ex1-tabs-1"
                   role="tab"
                   aria-controls="ex1-tabs-1"
                   aria-selected="true"
-                  onClick={()=>{setcolor(1)}}
+                  onClick={() => { setcolor(1) }}
                 >Whats New</a>
               </li>
               <li className="nav-item" role="presentation">
                 <a
-                  className={color===2?"nav-link active  tabs":"nav-link   border-0"}
+                  className={color === 2 ? "nav-link active  tabs" : "nav-link   border-0"}
                   id="ex1-tab-2"
                   data-bs-toggle="tab"
                   href="#ex1-tabs-2"
                   role="tab"
                   aria-controls="ex1-tabs-2"
                   aria-selected="false"
-                  onClick={()=>{setcolor(2)}}
+                  onClick={() => { setcolor(2) }}
                 >Security</a>
               </li>
               <li className="nav-item" role="presentation">
                 <a
-                  className={color===3?"nav-link active tabs":"nav-link border-0"}
+                  className={color === 3 ? "nav-link active tabs" : "nav-link border-0"}
                   id="ex1-tab-3"
                   data-bs-toggle="tab"
                   href="#ex1-tabs-3"
                   role="tab"
                   aria-controls="ex1-tabs-3"
                   aria-selected="false"
-                  onClick={()=>{setcolor(3)}}
+                  onClick={() => { setcolor(3) }}
                 >News</a>
               </li>
             </ul>
@@ -1045,6 +1050,9 @@ function Home() {
               </div>
             </div>
           </div>
+        </div>
+        <div className='text-center mt-5'>
+          <button className='btn btn-dark rounded-5 px-3 '>Read More  <img src={arrow2} alt='arrow2' width='12%' /></button>
         </div>
       </div>
 
