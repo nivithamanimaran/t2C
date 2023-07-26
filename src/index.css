@@ -84,18 +84,18 @@ code {
 /*home page*/
 .shadowpositionleft {
   left: 5%;
-  top: 60%;
+  top: 54%;
   }
   
   .shadowpositionright {
   right: 5%;
-   top: 50%;
+   top: 54%;
    z-index: -1;
   }
   
   .shadowpositiontop {
   right: 33%;
-   bottom:40%;
+   bottom:46%;
   }
   .image{
     margin-left:296px;
