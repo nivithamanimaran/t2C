@@ -12,6 +12,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*media queries*/
+@media only screen and (min-width: 600px) {
+  /* navbar */
+  .navbar-font{
+    font-size:20px;
+  }
+  /* home page */
+  .startdayfont{
+    font-size: 50px;
+    
+  }
+}
 .text-color{
   box-shadow: inset 0px -15px 0px 0px rgba(50, 197, 224, 1);
   width: 139px;
@@ -43,7 +56,7 @@ code {
 
 .textcolor{
   box-shadow: inset 0px -15px 0px 0px rgba(0, 115, 136, 1);
-  width: 178px;
+  width: 230px;
 }
 .textcolormob{
   box-shadow: inset 0px -13px 0px 0px rgba(0, 115, 136, 1);
@@ -86,7 +99,9 @@ code {
   left: 5%;
   top: 54%;
   }
-  
+  .mobcard{
+    border-radius:149px !important;
+  }
   .shadowpositionright {
   right: 5%;
    top: 54%;
@@ -96,6 +111,24 @@ code {
   .shadowpositiontop {
   right: 33%;
    bottom:46%;
+  }
+  .left{
+    left:1%;
+    width: 48%;
+  }
+  .right{
+    left:49%;
+    top:33%;
+    width:49%;
+  
+  }
+  .left2{
+    width: 49%;
+    top:67%;
+    left:0%
+  }
+  .text-position{
+    top:150px;
   }
   .image{
     margin-left:296px;
@@ -112,7 +145,7 @@ code {
   cursor: pointer;
 }
 .lapimgposition{
-  top: -170px;
+  top: -140px;
 }
 .buttonColor {
   background: #EDFCFF !important;
@@ -171,8 +204,11 @@ code {
   /* border-radius: 60% !important; */
   border: none !important;
   box-shadow: 4px 6px 22px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 50% !important;
 }
-
+.circle{
+  border-radius: 50% !important;
+}
 .homeheadcolor {
   color: rgba(115, 190, 206, 1);
 }
