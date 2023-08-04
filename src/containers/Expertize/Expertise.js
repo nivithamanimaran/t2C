@@ -77,7 +77,7 @@ function Expertise() {
                     <div className='row py-5'>
                         <div className='col-12 col-lg-6'>
                             <p className=' text-light fw-light m-0'><HiOutlineMinus />How we help you</p>
-                            <p className='h1 text-light textcolor  d-none d-sm-none d-md-block d-lg-block'><b>Offerings</b></p>
+                            <p className='h1 text-light textcolor6  d-none d-sm-none d-md-block d-lg-block'><b>Offerings</b></p>
                             <p className='h1 text-light textcolormob d-block d-sm-block d-md-none d-lg-none'><b>Offerings</b></p>
                         </div>
                         <div className='col-12 col-lg-6'>
@@ -115,7 +115,7 @@ function Expertise() {
                                         <div className="card-body cardcolor p-4">
                                             <div className='row'>
                                                 <div className='col-8'>
-                                                    <p className='h6 mt-lg-2'><b>Speed to Market</b></p>
+                                                    <p className='h6 mt-lg-3'><b>Speed to Market</b></p>
                                                 </div>
                                                 <div className='col-4 '>
                                                     <img src={market} className='img-fluid' alt='market' width='400px' />
@@ -130,7 +130,7 @@ function Expertise() {
                                         <div className="card-body cardcolor p-4">
                                             <div className='row'>
                                                 <div className='col-8'>
-                                                    <p className='h6 mt-lg-2'><b>Future Ready</b></p>
+                                                    <p className='h6 mt-lg-3'><b>Future Ready</b></p>
                                                 </div>
                                                 <div className='col-4 '>
                                                     <img src={ready} className='img-fluid' alt='market' width='400px' />
@@ -145,7 +145,7 @@ function Expertise() {
                                         <div className="card-body cardcolor p-4">
                                             <div className='row'>
                                                 <div className='col-8'>
-                                                    <p className='h6 mt-lg-2'><b>Cost Effective</b></p>
+                                                    <p className='h6 mt-lg-3'><b>Cost Effective</b></p>
                                                 </div>
                                                 <div className='col-4 '>
                                                     <img src={effective} className='img-fluid' alt='market' width='400px' />
@@ -261,7 +261,7 @@ function Expertise() {
                                 <br />
                                 <p className='h5'>Ecommerce Development</p>
                                 <br />
-                                <p className=''>A user-centric approach is at the heart of every interaction design and experience we create. Our process starts with consumer research and ends with serving customer delight.</p>
+                                <p className='mt-lg-2'>A user-centric approach is at the heart of every interaction design and experience we create. Our process starts with consumer research and ends with serving customer delight.</p>
                             </div>
                             <div className='col-12 col-md-6 col-lg-6 px-lg-5 px-md-5'>
                                 <img src={crm} className='img-fluid icon-size' alt='ecommerce' width='20%' />
@@ -358,7 +358,7 @@ function Expertise() {
                                 <br />
                                 <p className='h4'>UI / UX</p>
                                 <br />
-                                <p className='fs-6'>A user-centric approach is at the heart of every interaction design and experience we create. </p>
+                                <p className='fs-6 mt-lg-2'>A user-centric approach is at the heart of every interaction design and experience we create. </p>
                             </div>
                             <div className='col-12 col-md-6 col-lg-6'>
                                 <br />
@@ -439,7 +439,7 @@ function Expertise() {
                             </div>
                             <br />
                             <div className='col-12 col-md-6 col-lg-6'>
-                                <img src={group} className='img-fluid icon-size' alt='ecommerce' width='20%' />
+                                <img src={group} className='img-fluid icon-size mt-lg-2' alt='ecommerce' width='20%' />
                                 <br />
                                 <br />
                                 <p className='h4'>Dedicated Development Team</p>
@@ -557,18 +557,18 @@ function Expertise() {
                             </div>
                         </div>
                         <div className='row mt-lg-3'>
-                            <div className='col-12 col-md-12 col-lg-6'>
-                                <img src={artificial} className='img-fluid icon-size' alt='code' width='20%' />
+                            <div className='col-12 col-md-12 col-lg-6 mt-lg-3'>
+                                <img src={artificial} className='img-fluid icon-size' alt='code' width='18%' />
                                 <br /><br />
                                 <p className='h4'>Advanced AI</p>
-                                <p className='fs-6'>
+                                <p className='fs-6 mt-lg-3'>
                                     A user-centric approach is at the heart of every interaction design and experience we create.
                                 </p>
                             </div>
                             <div className='col-12 col-md-12 col-lg-6'>
                                 <img src={database} className='img-fluid mt-lg-3 icon-size' alt='group' width='20%' />
                                 <br />
-                                <p className='h4 mt-lg-2 mt-2'>Database Dev & Analytics</p>
+                                <p className='h4 mt-lg-1 mt-2'>Database Dev & Analytics</p>
 
                                 <p className='fs-6'>your one-stop destination for innovative web and mobile app</p>
                             </div>

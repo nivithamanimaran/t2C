@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
-import homecover1 from '../../assests/Homepage/homecover1.png'
+import homecover1 from '../../assests/Homepage/homecover3.png'
 import { HiOutlineMinus } from 'react-icons/hi'
 import { RiArrowDropDownLine } from 'react-icons/ri'
 import case1 from '../../assests/Homepage/case1.svg'
@@ -57,11 +57,14 @@ import team from '../../assests/Homepage/team.png'
 import ux from '../../assests/Homepage/ux.png'
 import realworld from '../../assests/Homepage/realworld.png'
 import processmob from '../../assests/Homepage/processmob.png'
+import { useNavigate } from 'react-router';
+
 
 function Home() {
   const [number, setNumber] = useState(1);
   const [text, setText] = useState('');
   const [color, setcolor] = useState(1)
+  const navigation = useNavigate();
 
   const array = [
     { id: 1, img: u2, text: 'We offer innovative web and mobile app development services to boost your online presence and drive growth. Our experienced team creates custom solutions tailored to your business needs, delivering seamless user experiences for lasting success.', icons: [{ icon: php }, { icon: dotnet }, { icon: phython }, { icon: js }] },
@@ -114,7 +117,7 @@ function Home() {
                   </div>
                   <div className='container-fluid'>
                     <div className='row'>
-                      <div className='col d-none d-sm-none d-md-block d-lg-block'>
+                      <div className='col d-none d-sm-none d-md-block d-lg-block p-0'>
                         <img src={homecover1} alt='homecoverimg' className='img-fluid col-12' width='1728px' />
                       </div>
                       <div className='col d-block d-sm-block d-md-none d-lg-none'>
@@ -787,11 +790,16 @@ function Home() {
             </OwlCarousel>
           </div>
         </div>
+        <div className='row  justify-content-center'>
+          <div className='col d-flex justify-content-center'>
+        <button className='btn btn-dark rounded-5 mt-lg-4 '  onClick={()=>{navigation('/casestudy')}}>View More<FiArrowDownRight size='30' /></button>
+          </div>
+        </div>
       </div >
 
 
       {/*Real World Success block*/}
-      < div className='container-fluid bgcolor mt-lg-5 d-block d-sm-block d-md-block d-lg-none' >
+      < div className='container-fluid bgcolor mt-lg-5 mt-5 d-block d-sm-block d-md-block d-lg-none' >
         <div className='container mt-lg-5'>
           <div className='row pt-5'>
             <div className='col-12 col-md-6 col-lg-6 mt-lg-5'>
@@ -947,7 +955,7 @@ function Home() {
                       aria-controls="ex1-tabs-1"
                       aria-selected="true"
                       onClick={() => { setcolor(1) }}
-                    >Whats New</a>
+                    >What's New</a>
                   </li>
                   <li className="nav-item border-bottom border-1 border-dark" role="presentation">
                     <a
@@ -1002,21 +1010,21 @@ function Home() {
             <div className='row'>
               <div className='col-12 col-md-4 col-lg-4 mt-5 mt-lg-0'>
                 <img src={whatsnew} className='img-fluid' alt='whatsnew' />
-                <p className='slidecolor mt-3'><i>Whats New</i></p>
+                <p className='slidecolor mt-3'><i>What's New</i></p>
                 <p className='h4'>
                   Why oracle database runs best on oracle linux
                 </p>
               </div>
               <div className='col-12 col-md-4 col-lg-4  mt-5 mt-lg-0'>
                 <img src={whatsnew} className='img-fluid' alt='whatsnew' />
-                <p className='slidecolor mt-3'><i>Whats New</i></p>
+                <p className='slidecolor mt-3'><i>What's New</i></p>
                 <p className='h4'>
                   Why oracle database runs best on oracle linux
                 </p>
               </div>
               <div className='col-12 col-md-4 col-lg-4 mt-5 mt-lg-0'>
                 <img src={whatsnew} className='img-fluid' alt='whatsnew' />
-                <p className='slidecolor mt-3'><i>Whats New</i></p>
+                <p className='slidecolor mt-3'><i>What's New</i></p>
                 <p className='h4'>
                   Why oracle database runs best on oracle linux
                 </p>

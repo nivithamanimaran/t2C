@@ -6,6 +6,9 @@ import t2clogo from '../../assests/t2clogo.svg'
 import { BiLogoFacebookSquare } from 'react-icons/bi'
 import { FaInstagramSquare } from 'react-icons/fa'
 import { BsLinkedin } from 'react-icons/bs'
+import facebook from '../../assests/Facebook.png'
+import linkedin from '../../assests/Linkedin.png'
+import insta from '../../assests/Instagram.png'
 import rocketmob from '../../assests/rocketmob.png'
 function Footer() {
     return (
@@ -129,9 +132,18 @@ function Footer() {
                     </div>
                     <div className='col-7 col-lg-6 col-md-6 d-flex justify-content-end'>
                         <div className='row '>
-                            <div className='col-4 col-lg-3 col-md-3 d-flex my-auto border-radius-10'><BiLogoFacebookSquare size='110px' /></div>
-                            <div className='col-4 col-lg-3 col-md-3 d-flex my-auto'> <FaInstagramSquare size='40px' /></div>
-                            <div className='col-4 col-lg-3 col-md-3 d-flex my-auto'><BsLinkedin size='38px' /></div>
+                            <div className='col-4 col-lg-3 col-md-3 d-flex my-auto border-radius-10'>
+                                {/* <BiLogoFacebookSquare size='110px' /> */}
+                                <img src={facebook} className='img-fluid' alt='facebook'/>
+                                </div>
+                            <div className='col-4 col-lg-3 col-md-3 d-flex my-auto'> 
+                            {/* <FaInstagramSquare size='40px' /> */}
+                            <img src={insta} className='img-fluid' alt='insta'/>
+                            </div>
+                            <div className='col-4 col-lg-3 col-md-3 d-flex my-auto'>
+                                {/* <BsLinkedin size='38px' /> */}
+                                <img src={linkedin} className='img-fluid' alt='linkedin'/>
+                                </div>
                         </div>
                     </div>
                 </div>

@@ -48,7 +48,7 @@ function Contactus() {
                 </div>
             </div>
             <div className='container-fluid p-0 mt-5'>
-                <img src={map} className='img-fluid d-none d-sm-none d-md-block d-lg-block' alt='map'/>
+                <img src={map} className='img-fluid d-none d-sm-none d-md-block d-lg-block col-12' alt='map'/>
                 <img src={mapmob} className='img-fluid d-block d-sm-block d-md-none d-lg-none' alt='mapmob'/>
             </div>
             <div className='container-fluid p-0'>

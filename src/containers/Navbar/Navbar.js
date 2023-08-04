@@ -33,7 +33,7 @@ function Navbar(props) {
                             </li>
                             <hr className='d-block d-sm-block d-md-block d-lg-none' />
                             <li className="nav-item d-flex align-items-center">
-                                <a className="nav-link text-dark" href='../Insights' aria-current="page" id='navitem'>{line === 3 ? <p className='navmenucolor navbar-font m-0'><HiOutlineMinus /> Insight</p> : <p className='navbar-font m-0'>Insight</p>}</a>
+                                <a className="nav-link text-dark" href='../Insights' aria-current="page" id='navitem'>{line === 3 ? <p className='navmenucolor navbar-font m-0'><HiOutlineMinus /> Insights</p> : <p className='navbar-font m-0'>Insights</p>}</a>
                             </li>
                             <hr className='d-block d-sm-block d-md-block d-lg-none' />
                             <li className="nav-item d-flex align-items-center">

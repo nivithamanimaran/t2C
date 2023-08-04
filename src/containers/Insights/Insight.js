@@ -58,7 +58,7 @@ function Insight() {
                         aria-controls="ex1-tabs-1"
                         aria-selected="true"
                         onClick={() => { setcolor(1); setPagechange(1) }}
-                      >Whats New</a>
+                      >What's New</a>
                     </li>
                     <li className="nav-item border-bottom border-1 border-dark" role="presentation">
                       <a
@@ -115,42 +115,42 @@ function Insight() {
                 <div className={pagechange === 1 ? 'row' : 'row d-none'} >
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={whatsnew} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={news} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={security} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={security} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4  p-3'>
                     <img src={news} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={whatsnew} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
@@ -161,42 +161,42 @@ function Insight() {
                 <div className={pagechange === 2 ? 'row' : 'row d-none'} >
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={whatsnew} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={news} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={security} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={security} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={news} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={whatsnew} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
@@ -207,42 +207,42 @@ function Insight() {
                 <div className={pagechange === 3 ? 'row' : 'row d-none'} >
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={whatsnew} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={news} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={security} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={security} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={news} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={whatsnew} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
@@ -294,42 +294,42 @@ function Insight() {
                 <div className={pagechange === 1 ? 'row' : 'row d-none'} >
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={news} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={news} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={news} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={news} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4  p-3'>
                     <img src={news} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={news} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
@@ -339,21 +339,21 @@ function Insight() {
                 <div className={pagechange === 2 ? 'row' : 'row d-none'} >
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={news} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={news} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={news} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
@@ -407,42 +407,42 @@ function Insight() {
                 <div className={pagechange === 1 ? 'row' : 'row d-none'} >
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={security} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={security} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={security} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={security} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4  p-3'>
                     <img src={security} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={security} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
@@ -453,21 +453,21 @@ function Insight() {
                 <div className={pagechange === 2 ? 'row' : 'row d-none'} >
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={security} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={security} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
                   </div>
                   <div className='col-12 col-md-6 col-lg-4 p-3'>
                     <img src={security} className='img-fluid' alt='whatsnew' />
-                    <p className='slidecolor mt-3'><i>Whats New</i></p>
+                    <p className='slidecolor mt-3'><i>What's New</i></p>
                     <p className='h4'>
                       Why oracle database runs best on oracle linux
                     </p>
