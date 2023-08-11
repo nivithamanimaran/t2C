@@ -13,8 +13,8 @@ function Navbar(props) {
     const navigate = useNavigate();
     return (
         <>
-            <nav className="navbar navbar-expand-lg">
-                <div className="container pt-lg-3 ">
+            <nav className="navbar navbar-expand-lg fixed-top bg-light">
+                <div className="container pt-lg-3">
                     <a className="navbar-brand" href="/">
                         <img src={t2clogo} className='img-fluid d-none d-sm-none d-md-block d-lg-block' alt='Kennovatelogo' href='../Home' width='130px' />
                         <img src={t2clogo} className='img-fluid d-block d-sm-block d-md-none d-lg-none' alt='Kennovatelogo' href='../Home' width='80px' />

@@ -25,6 +25,7 @@ function Aboutus() {
   return (
     <>
       <Navbar page={4} />
+      <div className='mt-lg-5 pt-lg-5 mt-md-5 pt-md-5 mt-5 pt-3'>
       <div className='container-fluid p-0'>
         <div className='row'>
           <div className='col-4 position-absolute p-5 mt-lg-5  d-none d-sm-none d-md-block  d-lg-block headalign'>
@@ -325,6 +326,7 @@ function Aboutus() {
       </div>
       <div className=''>
         <Footer />
+      </div>
       </div>
     </>
   );

@@ -19,8 +19,9 @@ function Casestudy() {
 
     return (
         <>
-            <div style={{ overflowX: 'hidden' }}>
+            <div style={{ overflowX: 'hidden' }} className='mt-lg-5 pt-lg-5 mt-md-5 pt-md-5 mt-5 pt-3'>
                 <Navbar />
+            
                 <div className='container-fluid p-0 m-0'>
                     <div className='row'>
                         <div className='col d-flex justify-content-center mt-lg-5 mt-3 pt-lg-5 pt-5 position-absolute'>

@@ -16,7 +16,7 @@ function BookDemo() {
     }
     return (
         <>
-
+        <div className='mt-5 pt-5'>
             <div className='container-fluid'>
                 <div className='row'>
                     <div className='col'>
@@ -78,6 +78,7 @@ function BookDemo() {
                     </div >
                 </div >
             </div >
+            </div>
         </>
     )
 }
