@@ -151,7 +151,7 @@ function Home() {
                   </div>
                   <div className='container-fluid'>
                     <div className='row'>
-                      <div className='col d-none d-sm-none d-md-block d-lg-block'>
+                      <div className='col d-none d-sm-none d-md-block d-lg-block p-0'>
                         <img src={homecover1} alt='homecoverimg' className='img-fluid col-12' width='1728px' />
                       </div>
                       <div className='col d-block d-sm-block d-md-none d-lg-none'>
@@ -185,7 +185,7 @@ function Home() {
                   </div>
                   <div className='container-fluid'>
                     <div className='row'>
-                      <div className='col d-none d-sm-none d-md-block d-lg-block'>
+                      <div className='col d-none d-sm-none d-md-block d-lg-block p-0'>
                         <img src={homecover1} alt='homecoverimg' className='img-fluid col-12' width='1728px' />
                       </div>
                       <div className='col d-block d-sm-block d-md-none d-lg-none'>

@@ -502,7 +502,7 @@ function Expertise() {
                         </div>
                         <div className='row mt-lg-5 mt-5'>
                             <div className='col-12 col-md-12 col-lg-6'>
-                                <img src={clouddownload} className='img-fluid icon-size' alt='ui' width='20%' />
+                                <img src={clouddownload} className='img-fluid icon-size col-2' alt='ui' width='20%' />
                                 <br /> <br />
                                 <p className='h4'>Dev Ops & Cloud</p>
                                 <br />
@@ -511,7 +511,7 @@ function Expertise() {
                                 </p>
                             </div>
                             <div className='col-12 col-md-12 col-lg-6'>
-                                <img src={exam} className='img-fluid icon-size' alt='jira' width='20%' />
+                                <img src={exam} className='img-fluid icon-size col-2' alt='jira' width='20%' />
                                 <br /> <br />
                                 <p className='h4'>Software QA & Testing</p>
                                 <br />

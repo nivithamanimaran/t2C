@@ -58,7 +58,7 @@ function Aboutus() {
             <p className='fs-6 navmenucolor d-none d-sm-none d-md-none d-lg-block'>What we do</p>
             <p className='h2 d-none d-sm-none d-md-none d-lg-block'><b>Your Chief Technology Organization</b></p>
             <div className='row'>
-              <div className='col'>
+              <div className='col mt-lg-3'>
                 <p className='textOverlap d-none d-sm-none d-md-none d-lg-block col-5'>
                   <b>Get Unmatched Strategy and Execution  Support with T²C</b> <br />
                   T²C is your acting CTO that empowers you with a confluence of resources, associations and mentorship. We define effective digital strategies to equip you for the long run.
@@ -78,7 +78,7 @@ function Aboutus() {
             <p className='fs-6 navmenucolor'>What we do</p>
             <p className='h2 '><b>Moulding the leaders of tomorrow</b></p>
             <div className='container'>
-              <div className='col'>
+              <div className='col mt-lg-3'>
                 <p className='textOverlaptwo d-none d-sm-none d-md-none d-lg-block col-5'><b
                 >The T²C tribe is build on the foundations of game intelligence.</b><br />
                   We coordinate one-on-one mentoring by matching individuals with complementary cognitive profiles to facilitate equity of resources and create individuals with critical acumen.

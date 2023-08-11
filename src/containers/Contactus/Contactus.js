@@ -38,8 +38,8 @@ function Contactus() {
                     </div>
                     <div className='col-12 col-lg-6 p-lg-5 p-md-4 p-3'>
                         <form>
-                            <input type='text' placeholder='Full Name' className="form-control inputcolor border-0 rounded-0 mt-3 mt-lg-0" />
-                            <input type='email' placeholder='Email Address' className="form-control inputcolor border-0 rounded-0  mt-lg-4 mt-3" />   
+                            <input type='text' placeholder='Full Name*' className="form-control inputcolor border-0 rounded-0 mt-3 mt-lg-0" />
+                            <input type='email' placeholder='Email Address*' className="form-control inputcolor border-0 rounded-0  mt-lg-4 mt-3" />   
                             <input  type='number' placeholder='Phone Number' className="form-control inputcolor border-0 rounded-0  mt-lg-4 mt-3" />
                             <textarea type='text' placeholder='How we can help you?' className='form-control border-0 rounded-0 textareacolor mt-lg-4 mt-3' rows='5'/>
                         <button type='submit' className='btn btn-dark rounded-5 mt-lg-4 mt-4 px-lg-3 px-5'>Submit <img src={arrow}  className='img-fluid' alt='arrow' width='13%'/></button>
